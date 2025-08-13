@@ -38,3 +38,18 @@ dist/
 *.pt
 *.pth
 huggingface-models/
+
+# Ignore media files
+*.mp3
+*.mp4
+*.mkv
+*.wav
+*.m4a
+*.flac
+*.srt
+*.vtt
+*.ogg
+*.ogv
+*.oga
+*.webm
+*.mka
