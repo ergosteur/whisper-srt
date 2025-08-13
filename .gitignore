@@ -1,0 +1,39 @@
+# Python virtual environments
+.venv/
+venv/
+ENV/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and outputs
+*.log
+*.srt
+
+# Jupyter and notebooks
+.ipynb_checkpoints/
+
+# Build and dist
+build/
+dist/
+*.egg-info/
+
+# Misc
+*.bak
+*.tmp
+
+# Ignore model weights and large files
+*.safetensors
+*.pt
+*.pth

@@ -1,0 +1,9 @@
+# Core libs for Whisper + audio IO (Torch installed separately)
+# automatically installed by setup_venv script
+transformers>=4.40,<5
+accelerate>=0.30
+librosa>=0.10
+soundfile>=0.12
+ffmpeg-python>=0.2.0
+safetensors>=0.4.2
+tqdm>=4.66
