@@ -74,7 +74,7 @@ def main():
     assert os.path.exists(args.audio), f"Missing audio: {args.audio}"
     device = args.device or ("cuda" if torch.cuda.is_available() else "cpu")
 
-    model, proc = load_model(args.model-dir, args.model_id, args.weights, device)
+    model, proc = load_model(args.model_dir, args.model_id, args.weights, device)
     model.to(device)
 
     asr = pipeline(
