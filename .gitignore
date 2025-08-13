@@ -37,3 +37,4 @@ dist/
 *.safetensors
 *.pt
 *.pth
+huggingface-models/
